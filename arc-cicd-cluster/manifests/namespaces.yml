@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: aks-helloworld-one
-        image: renatoregistry/app-test:v1
+        image: mcr.microsoft.com/azuredocs/aks-helloworld:v1
         ports:
         - containerPort: 80
         env:
